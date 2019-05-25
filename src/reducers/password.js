@@ -23,7 +23,7 @@ export default function(state = initialState, action) {
     case ActionType.SUBMIT_CREATE_PASSOWORD_ERROR:
       return state.merge(
         Object.assign({}, init, action.payload, {
-          submitted: true
+          submitError: true
         })
       );
 
