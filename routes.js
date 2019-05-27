@@ -3,7 +3,7 @@ const routes = (module.exports = nextRoutes());
 
 const APP_ROUTES = [
   {
-    page: "create-password",
+    page: "index",
     pattern: "/"
   },
   {

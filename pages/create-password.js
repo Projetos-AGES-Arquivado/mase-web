@@ -15,7 +15,7 @@ const passwordSchema = Yup.object().shape({
   )
 });
 
-class Basic extends Component {
+class CreatePassword extends Component {
   static getInitialProps({ query }) {
     return { query };
   }
@@ -123,4 +123,4 @@ export default connect(
   {
     createPassword
   }
-)(Basic);
+)(CreatePassword);
