@@ -11,7 +11,7 @@
     "compression": "^1.7.1",
     "css-loader": "^2.1.1",
     "dotenv": "^8.0.0",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "formik": "^1.5.7",
     "helmet": "^3.12.1",
     "humps": "^2.0.1",
